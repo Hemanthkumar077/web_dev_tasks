@@ -1,0 +1,89 @@
+.names {
+    font-size: 30px;
+    display: inline;
+    color: white;
+    background-color:  rgb(15, 89, 129);
+  
+
+}
+
+h2 {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.title2{
+    display: inline;
+    background-color:  rgb(18, 102, 148);
+   color : rgb(208, 207, 216);
+   font-size: 2em; 
+   justify-content: space-between;
+   letter-spacing: 10px; 
+}
+.title{
+    display: inline;
+    font-size: 50px; 
+   color : rgb(233, 231, 238);
+   font-size: 40px;
+   background-color: rgb(11, 99, 146);
+   letter-spacing: 2px; 
+}
+    
+.luffy {
+    padding: 2px 0px 0px 0px; 
+}
+
+.heading {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+    font-size: large;
+}
+
+body{
+    background-color: rgb(192,192,192);
+}
+
+.firstcol{
+    background-color:   rgb(139, 56, 40);
+    opacity: 85%;
+}
+.secondcol{
+    background-color: rgb(40, 31, 31);
+    opacity: 85%;
+}
+.thirdcol{
+    background-color:  rgb(105,105,105);
+    opacity: 95%;
+}
+.fourthcol{
+    background-color:  rgb(30, 104, 104);
+    opacity: 80%;
+}
+.about{
+    color: rgb(241, 213, 213);
+}
+.about {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.images img:hover{
+    transform: scale(1.03);
+    border-color: gold;
+    transition: border-color 0.3s;
+}
+ 
+
