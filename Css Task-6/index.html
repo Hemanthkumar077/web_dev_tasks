@@ -4,32 +4,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Pseudo Clases</title>
+    <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
-    <nav class="navbar">
-        <div class="container1">
-            <div>
-                <a href="#hemu" class="hem">Hemu's Cafe</a>
-            </div>
-            <div>
-                <a href="#home" class="hom">Home</a>
-                <a href="#about" class="abt">About</a>
-                <a href="#menu" class="men"> Menu</a>
-                <a href="#location" class="loc">location</a>
+
+    <header class="header">
+        <nav class="nav_bar">
+            <a href="#home" class="child_nav">Home</a>
+            <a href="#about" class="child_nav">About</a>
+            <a href="#menu" class="child_nav">Menu</a>
+            <a href="#contact" class="child_nav">Contact</a>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="bg_img">
+            <p class="cafe_name">The Cafe</p>
+        </div>
+    </section>
+    <br>
+    <section class="intro" id="about">
+        <img src="https://www.w3schools.com/w3images/coffeehouse.jpg" alt="Cafe Image" class="intro_img">
+        <h1>Welcome to The Cafe</h1>
+        <p>Enjoy our freshly brewed coffee and delicious pastries.
+            A 5-star café offers a luxurious and refined dining experience, combining world-class service with a stylish
+            ambiance. It features gourmet coffee, artisanal teas, and a curated menu of handcrafted pastries,
+            international snacks, and chef-special light meals. The café is known for its elegant décor, peaceful
+            atmosphere, and attention to detail — making it ideal for both casual meetings and leisurely indulgence.
+            Guests enjoy personalized service, premium ingredients, and a serene escape from the city buzz. Whether
+            you're sipping a cappuccino or savoring a French éclair, a 5-star café delivers a blend of comfort and
+            sophistication.
+        </p>
+    </section>
+    <section class="menu_bar" id="menu">
+        <div class="tab_container">
+            <input type="radio" name="food" id="bt1" class="button" checked>
+            <label for="bt1">Menu</label>
+
+            <input type="radio" name="food" id="bt2" class="button">
+            <label for="bt2">Specials</label>
+
+            <div class="content">
+                <div class="menu_content">
+                    <h1>Our Menu</h1>
+                    <h2>🥗 Appetizers / Starters</h2><br>
+
+                    <b>
+                        <h3>Indian Starters</h3>
+                    </b>
+
+                    <p>Tandoori Paneer Tikka – ₹595</p>
+
+                    <p>Murgh Malai Kebab – ₹675</p>
+
+                    <p>Galouti Kebab with Ulte Tawe ka Paratha – ₹725</p>
+
+                    <p>Dahi ke Kebab – ₹550</p><br>
+
+                    <b>
+                        <h3>International Starters</h3>
+                    </b>
+
+                    <p>Caesar Salad (Veg/Chicken) – ₹525 / ₹595</p>
+
+                    <p>Prawn Cocktail – ₹750</p>
+
+                    <p>Bruschetta with Tomato & Basil – ₹495</p>
+
+                    <p>Smoked Salmon on Rye – ₹825</p>
+
+                    <h3>🍜 Soups</h3><br>
+
+                    <p>Cream of Mushroom – ₹395</p>
+
+                    <p>Sweet Corn Soup (Veg/Chicken) – ₹395 / ₹445</p>
+
+                    <p>Tom Yum Soup (Veg/Chicken/Prawns) – ₹425 / ₹495 / ₹595</p>
+
+                    <p>Mulligatawny Soup – ₹445</p>
+
+                </div>
+                <div class="specials_content">
+                    <h2>Today's Chef Specials</h2><br>
+
+                    <h2>🧑‍🍳 Chef’s Recommended Starters</h2>
+                    <p>Truffle-Infused Mushroom Cappuccino Soup – ₹475
+                        A creamy wild mushroom soup with a touch of black truffle oil.</p>
+
+                    <p>Tandoori Prawns with Mango Salsa – ₹895
+                        Fresh tiger prawns marinated in spices, grilled, and served with mango chili salsa.</p><br>
+
+                    <h2>🍽️ Main Course Specials</h2>
+                    <p>Nalli Nihari with Khameeri Roti – ₹945
+                        Slow-cooked lamb shank in aromatic Awadhi gravy, paired with fluffy sourdough bread.</p>
+
+                    <p>Stuffed Zucchini Rolls in Walnut Cream Sauce – ₹795 (Vegan)
+                        Grilled zucchini filled with couscous, nuts & herbs, served with creamy walnut sauce.</p>
+
+                    <p>Sea Bass Meunière with Garlic Mashed Potatoes – ₹1125
+                        Pan-seared sea bass in lemon butter caper sauce.</p><br>
+
+                    <h2>🍚 Rice & Biryani Special</h2>
+
+                    <p>Zafrani Subz Dum Biryani – ₹775
+                        Saffron-flavored vegetable biryani cooked on dum, served with raita and salan.</p><br>
+
+                    <h2>🍮 Dessert Specials</h2>
+
+                    <p>Saffron & Rose Phirni in Clay Pot – ₹395</p>
+
+                    <p>Chilled rice pudding infused with saffron and rose, served in traditional mitti kulhad.</p>
+
+                    <p>Dark chocolate dome melted tableside with hot ganache revealing a surprise.</p>
+
+
+                </div>
             </div>
         </div>
-    </nav>
-    <div class="container2" id="home">
-    </div>
-    <div class="name">
-        <p>THE CAFE</p>
-    </div><br>
-    <div class="cafe-name">
-        <p>WELCOME TO OUT CAFE</p>
-    </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1 id="contact">Contact</h1><br>
+        <div>
+            <form action="" method="get" class="forms">
+                <lable for="name">Name :</lable>
+                <input type="text" id="name" name="user" placeholder="User name" required>
+                <lable for="mail">mail :</lable>
+                <input type="text" id="mail" name="id" placeholder="mail_id" required>
+                <lable for="Comments">Comments:</lable>
+                <input type="text" id="Comments" name="text" placeholder="" required>
+                <span class="submit1"><button>Submit</button></span>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2025 The Cafe. All rights reserved.</p>
+        <p>Follow us on social media! <a href="#" class="social_link">w3 schools</a></p>
+
+    </footer>
+
+
+
 </body>
 
 </html>
